@@ -3,7 +3,7 @@
 Do some maffs!
 ## Demo
 
-You can view this app live [here](jp-react-calculator.netlify.app).
+You can view this app live [here](https://jp-react-calculator.netlify.app).
 
 ## Testing
 
