@@ -1,0 +1,13 @@
+#calc-body {
+    width: 100%;
+    flex: 4;
+    background: linear-gradient(#31373dfc, var(--primary-dark));
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: 
+        "btn_clear btn_clear btn_del btn_div"
+        "btn_7 btn_8 btn_9 btn_mult"
+        "btn_4 btn_5 btn_6 btn_min"
+        "btn_1 btn_2 btn_3 btn_add"
+        "btn_dec btn_0 btn_eql btn_eql";
+}

@@ -1,0 +1,32 @@
+#calc-head {
+    width: 100%;
+    flex: 3;
+}
+#calc-screen {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.spacer {
+    flex: 2;
+}
+#output {
+    color: var(--primary-light);
+    font-stretch: 100%;
+    /* font-size: 64px;  Set by JS */
+    width: 90%;
+    height: 78px;
+    line-height: 78px;
+    margin: auto;
+    flex: 2;
+}
+#input {
+    color: var(--primary-blue);
+    font-size: 1.8em;
+    flex: 2;
+    overflow: hidden;
+    word-wrap: break-word;
+}

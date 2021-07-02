@@ -1,0 +1,31 @@
+.btn {
+    font-size: 1.3em;
+    font-weight: 300;
+    color: var(--primary-light);
+    background: none;
+    border: #2a3137ee solid 1px;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out background-color 0.1s;
+}
+.btn:hover, .btn.active-op-btn {
+    background-color: var(--dark-hover);
+}
+.btn.equals {
+    background-color: var(--primary-blue);
+
+}
+.btn.equals:hover {
+    background-color: var(--blue-hover);
+}
+.btn.clear {
+    background-color: var(--primary-orange);
+
+}
+.btn.clear:hover {
+    background-color: var(--orange-hover);
+}
+.btn.functional {
+    font-size: 1.5em;
+}
